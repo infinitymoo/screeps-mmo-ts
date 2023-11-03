@@ -2,7 +2,21 @@
     "compilerOptions": {
         "target": "ES6",
         "module": "CommonJS",
-        "sourceMap": true,
-        "strict": true
+        "strict": true,
+        "outDir": "dist",
+        "esModuleInterop": true, // required for lodash, otherwise get error TS1259: Module '"D:/Games/Screeps/node_modules/@types/lodash/index"' can only be default-imported using the 'esModuleInterop' flag
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "rootDir": "src"
+        // "outFile": "dist/main.js",
+        // "paths": {
+        //     "*": [ 
+        //         "./src/test/mock/*"
+        //     ]
+        // }
     }
+    // "ts-node": { 
+    //     "files": true // required for node:modules otherwise things like throwing exceptions aren't recognized
+    // }
 }

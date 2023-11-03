@@ -1,0 +1,20 @@
+## MILESTONE 1
+
+0. Typescript based implementation of following;
+1. Setup home room state(s)
+ - DONE - Types of States (string keys for JSON Object)
+ - IN PROGRESS - What each state would look like for Milestone 1, consider interface typed
+    - IN PROGRESS - colony manager unit test list for this
+ - TO DO - Appropriate get and set functions for Milestone 1 state stuff within State Machine.
+
+2. Make basic harvester and courier code
+3. Make room startup spawn code
+
+## META MILESTONES
+
+1. Avoid memory reparsing if it still persists, see js main loop code
+2. Make TS understand Memory object so i can stop doing ts ignores
+3. Implement Unit Tests
+4. Implement environment awareness for toggling debug and tracking features, or other meta features like pixelation that bugs out in sim
+
+
